@@ -67,7 +67,7 @@ there for documentation about a specific function, struct, or define.
 
 * [Validating LV2 Data](validating-lv2-data.html)
 
-* [Bundle Defnition](bundle-definition.html)
+* [Bundle Definition](bundle-definition.html)
 
 
 ## Contributing to LV2
