@@ -214,3 +214,7 @@ h1 {
 .page-header {
     margin-top: 10px;
 }
+
+.navbar-right {
+    display: none;
+}

@@ -2,12 +2,7 @@ Title: Why LV2?
 
 Unlike many popular audio plugin APIs, LV2 is a platform-agnostic
 [Free Software](http://www.gnu.org/philosophy/free-sw.html) specification with
-a liberal license permitting virtually any implementation (both free and
-proprietary).
-
-LV2 has been designed with extensibility in mind right from the start, so if
-LV2 currently can't do what you need, functionality can be added without
-breaking any pre-existing hosts or plugins.
+a liberal license.
 
 ## Features
 
@@ -21,7 +16,7 @@ breaking any pre-existing hosts or plugins.
 
     * Multi-channel port groups (e.g. stereo, 5.1 surround, ambisonics).
 
-* Decentralized extensibility: any developer can implement (almost) any feature within LV2.
+* Extensibility: almost any feature is possible within LV2.
 
 * Graceful compatibility: features can be optional.
 
@@ -29,7 +24,7 @@ breaking any pre-existing hosts or plugins.
 
 * Plugin "bundles" may include any files, such as samples.
 
-* Presets (bundled and/or user saved).
+* Presets, both bundled and user saved, in the same format.
 
 * Plugin state saving and restoring.
 
@@ -39,7 +34,7 @@ breaking any pre-existing hosts or plugins.
 
 * Message-based plugin communication, for advanced plugin control from UIs or other code.
 
-* Transport awareness, both real time and tempo time (bars, beats, etc.).
+* Transport awareness, both real time and musical time.
 
 
 ## Bundles
@@ -67,9 +62,14 @@ with the basic methods typical to audio plugins.
 
 ## Extensibility
 
-While the core API of LV2 is very simple, extensions can add arbitrary
-functionality.  The community works together to define standard extensions for
-commonly needed functionality, but developers are free to implement any
-extensions they need for their own applications.  This is particularly useful
-for developing new functionality and testing it in a real application before
-proposing a new standard extension.
+The more powerful features of LV2 are built as "extensions" on the core API.
+The community works together to define standard extensions for commonly needed
+functionality, but developers are free to implement any extensions they need
+for their own applications.  This is particularly useful for developing new
+functionality and testing it in a real application before proposing a new
+standard extension.
+
+This makes improving the LV2 standard a frictionless process for developers,
+but standard extensions are not second-class citizens.  If you have no need for
+new features, or interest in developing LV2 itself, you can simply treat the
+core and standard extensions as a unified API.

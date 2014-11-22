@@ -1,6 +1,4 @@
 Title: Filesystem Hierarchy Standard
-Date: 2014-11-20 20:16
-Category: Documentation
 
 This page defines the standard locations where LV2 data should be installed.
 All LV2 data is installed in [bundles](bundle-definition.html) which are discovered by hosts and other tools.

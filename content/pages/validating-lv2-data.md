@@ -1,6 +1,4 @@
 Title: Validating LV2 Data
-Date: 2014-11-20 21:33
-Category: Documentation
 
 Because LV2 data written in Turtle does not need to be compiled like C, the
 author must take care to ensure it is valid.  For example, if there is a typo

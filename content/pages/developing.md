@@ -1,17 +1,15 @@
-Title: Developer Information
+Title: Developing
 
 The way to learn about implementing LV2 is by example.  The documentation and
 example projects listed below have been created specifically for this purpose,
 look at these first.  Copying an example as a template is recommended.
 
 
-## What *not* to do 
-
-If you are interested in implementing LV2, do *not* look at the specifications
-and API references first!  They are just that: references, and do not provide a
-high-level view of how to get the job done.  Once you have a basic working
-implementation based on the examples, if you need more specific detail, then
-the references are useful.
+**What *not* to do:** If you are interested in implementing LV2, do *not* look
+at the specifications and API references first!  These are *references* that do
+not always provide a clear high-level view.  Once you've gotten started based
+on the information below, if you need more specific detail, then the references
+are useful.
 
 
 ## Implementing Plugins
@@ -61,6 +59,36 @@ there for documentation about a specific function, struct, or define.
 * [Specifications](http://lv2plug.in/ns)
 
 * [API Reference](http://lv2plug.in/doc/html)
+
+
+## Other Documentation
+
+* [Filesystem Hierarchy Standard](filesystem-hierarchy-standard.html)
+
+* [Validating LV2 Data](validating-lv2-data.html)
+
+* [Bundle Defnition](bundle-definition.html)
+
+
+## Contributing to LV2
+
+Both LV2 itself and this site are stored in [git](http://lv2plug.in/git):
+
+    :::sh
+    git clone http://lv2plug.in/git/lv2
+    git clone http://lv2plug.in/git/lv2site
+
+Contributions are most welcome.  If you plan to implement something
+significant, it is a good idea to discuss it with the community on the mailing
+list to be sure you're headed in the right direction.  Feel free to get
+creative, but note that all released LV2 APIs are permanently stable, so
+changes that break them can not be accepted.
+
+A good entry point for beginners is writing new example plugins (using an
+existing example as a template) to demonstrate some functionality in the
+simplest possible way.
+
+Happy hacking!
 
 
 ## Help

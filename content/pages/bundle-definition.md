@@ -1,6 +1,4 @@
 Title: Bundle Definition
-Date: 2014-11-20 20:16
-Category: Documentation
 
 An _LV2 Bundle_ is a directory containing the file `manifest.ttl` at the top
 level, which is written in [Turtle](http://www.dajobe.org/2004/01/turtle/).

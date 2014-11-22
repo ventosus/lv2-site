@@ -14,6 +14,8 @@ DEFAULT_LANG = u'en'
 
 THEME = 'themes/lv2'
 
+FAVICON = 'images/favicon.png'
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -31,12 +33,17 @@ LINKS = ()
 #          ('Another social link', '#'),)
 SOCIAL = ()
 
+MENUITEMS = [('Developing', '/pages/developing.html'),
+             ('Git', 'http://lv2plug.in/git')]
+
+DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = False
+
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
-DISPLAY_PAGES_ON_MENU = False
 
 DISPLAY_TAGS_ON_SIDEBAR = False
 DISPLAY_RECENT_POSTS_ON_SIDEBAR = False
