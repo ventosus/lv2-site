@@ -5,7 +5,7 @@ listed here, please
 [let us know](http://lists.lv2plug.in/listinfo.cgi/devel-lv2plug.in) or
 [http://lv2plug.in/git](add them) and send us a patch.
 
-Another list is available at http://apps.linuxaudio.org/apps/categories/lv2
+Another list is available at the [http://apps.linuxaudio.org/apps/categories/lv2](http://apps.linuxaudio.org/apps/categories/lv2).
 
 ## Plugins
 
@@ -13,16 +13,17 @@ Another list is available at http://apps.linuxaudio.org/apps/categories/lv2
 
 Project                                                      | Description
 -------------------------------------------------------------|--------------------------------------------------------------------
+[EMap](http://www.colorfulsoftware.com/emap)                 | FluidSynth soundfont playing synth.
 [foo-yc20](http://code.google.com/p/foo-yc20/)               | Faithful emulation of the YC-20 divide-down combo organ.
 [lv2-mdaEPiano](http://github.com/rekado/lv2-mdaEPiano)      | Native LV2 port of the famous mdaEPiano VSTi.
 [minaton](http://sourceforge.net/projects/minaton/)          | Fat sounding mono subtractive software synthesizer.
 [Newtonator](http://newtonator.sourceforge.net/)             | Synth that produces some unpredictable sounds.
 [Russolo Suite](http://intonarumori.sourceforge.net)         | The CrazySynth synthesizer and the "the do-it-all effect" Omnifono.
+[setBfree](https://github.com/pantherb/setBfree)             | B3 organ emulator including Leslie.
 [So-synth-LV2](http://github.com/jeremysalwen/So-synth-LV2)  | Unofficial LV2 ports of 50m30n3's synthesizers.
+[Sorcer](http://openavproductions.com/sorcer/)               | Sorcer, a wavetable synth for dirty dubstep basslines by [OpenAV](http://openavproductions.com).
 [SynthV1](http://synthv1.sourceforge.net/)                   | 4-oscillator subtractive polyphonic synthesizer with stereo FX.
 [Zyn](http://home.gna.org/zyn/)                              | LV2 port of Zynaddsubfx.
-[setBfree](https://github.com/pantherb/setBfree)             | B3 organ emulator including Leslie.
-[EMap](http://www.colorfulsoftware.com/emap)                 | FluidSynth front-end
 
 ### Samplers
 
@@ -30,14 +31,15 @@ Project                                                                     | De
 ----------------------------------------------------------------------------|-------------------------------------------------
 [Composite Sampler](http://gabe.is-a-geek.org/composite/plugins/sampler/1/) | MIDI-controllable sampler.
 [DrMr Sampler](http://github.com/nicklan/drmr/)                             | Sampler that can load Hydrogen drumkits.
+[Fabla](http://openavproductions.com/fabla/)                                | Drum sampler with envelope and compressor by [OpenAV](http://openavproductions.com).
 [SamplV1](http://samplv1.sourceforge.net/)                                  | Polyphonic sampler/synthesizer with stereo FX.
-[Fabla](http://openavproductions.com/fabla/)                                | Drum sampler with envelope and compressor.
 
 ### Effects
 
 Project                                                        | Description
 ---------------------------------------------------------------|---------------------------------------------------------------------------------
 [abGate](http://abgate.sourceforge.net/)                       | Noise date.
+[ArtyFX](http://openavproductions.com/artyfx/)                 | A suite of effects for mixing and live performance by [OpenAV](http://openavproductions.com).
 [Aubio-LV2](http://jeremysalwen.github.com/Aubio-LV2-Plugins/) | LV2 wrappers for some of the Aubio library
 [avw.lv2](http://sourceforge.net/projects/avwlv2/)             | An LV2 port of internal modules of AlsaModularSynth
 [Calf](http://calf.sourceforge.net/)                           | Various plugins, including flanger, organ, reverb, filters, rotary speaker, etc.
@@ -46,7 +48,7 @@ Project                                                        | Description
 [Invada Studio](https://launchpad.net/invada-studio/)          | Delays, distortions, filters, phasers, reverbs, and some utility plugins.
 [IR](http://factorial.hu/plugins/lv2/ir)                       | No-latency/low-latency, realtime, high performance signal convolver.
 [kn0ck0ut-LV2](https://github.com/jeremysalwen/kn0ck0ut-lv2)   | LV2 port of [kn0ck0ut](http://www.freewebs.com/st3pan0va/).
-[lv2fil](http://nedko.arnaudov.name/soft/lv2fil/trac/)         | Four-band parametric equaliser.
+[lv2fil](http://nedko.arnaudov.name/soft/lv2fil/download/)     | Four-band parametric equaliser.
 [mda-lv2](http://svn.drobilla.net/lad/trunk/mda-lv2/)          | LV2 port of the popular VST MDA plugins (a few instruments as well).
 [swh-plugins](http://plugin.org.uk/lv2/)                       | LV2 version of the popular LADSPA collection with various plugins.
 [TalentedHack](http://code.google.com/p/talentledhack/)        | Pitch correction derived from Autotalent.
@@ -102,5 +104,4 @@ Project                                                                  | Descr
 [Lilv](http://drobilla.net/software/lilv/)                               | C library for LV2 hosts.
 [LV2 Toolkit](http://lvtoolkit.org/)                                     | C++ wrappers of LV2 APIs.
 [Permafrost](http://sourceforge.net/projects/naspro/files/naspro/0.2.0/) | DSP language whose compiler generates LV2 plugins.
-[SSG](http://nedko.arnaudov.name/soft/ssg/)                              | "Simple Sine Generator" synth plugin.
 [Torture](http://carlh.net/plugins/torture.php)                          | Utility for checking LV2 plugins for denormals and data corruption.
