@@ -7,33 +7,19 @@ a liberal license.
 ## Features
 
 * Audio, control, "control voltage" (audio-rate control), and event (e.g. MIDI) input and output.
-
 * Expressive metadata, including:
-
     * "Meaningful" controls (e.g. gain or envelope attack) allowing intelligent host control or UI generation.
-
     * Control units (e.g. Hz, octaves, dB).
-
     * Multi-channel port groups (e.g. stereo, 5.1 surround, ambisonics).
-
 * Extensibility: almost any feature is possible within LV2.
-
 * Graceful compatibility: features can be optional.
-
 * Embeddable GUIs in any toolkit, with network transparent control.
-
 * Plugin "bundles" may include any files, such as samples.
-
 * Presets, both bundled and user saved, in the same format.
-
 * Plugin state saving and restoring.
-
 * Host-managed logging.
-
 * Non-realtime plugin worker methods ("idiot-proof" non-realtime operations, like sample loading without dropouts).
-
 * Message-based plugin communication, for advanced plugin control from UIs or other code.
-
 * Transport awareness, both real time and musical time.
 
 

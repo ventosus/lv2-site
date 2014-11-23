@@ -12,37 +12,29 @@ host authors typically do not need to be concerned with the details.
 
 * All information necessary for a host to discover (but not necessarily use)
   the contents of a bundle MUST be present in `manifest.ttl`.
-
 * The host can discover which plugins are present by scanning `manifest.ttl`
   for statements like `<plugin-uri> a lv2:Plugin`.
-
 * The data files for each plugin are listed with the `rdfs:seeAlso` property,
   for example `<plugin-uri> rdfs:seeAlso <datafile.ttl>`.
-
 * Descriptions may be split across several files, and several bundles.  File
   boundaries are not significant.
-
 * If a statement like `<extension-uri> a lv2:Specification` is found, then
   `<extension-uri>` is specification which may contain information like
   additional plugin categories, properties, and human-readable labels for
   things.  The host SHOULD load the corresponding data files.
-
 * If a statement like `<preset-uri> a pset:Preset` is found, then
   `<preset-uri>` is a preset.  The `lv2:appliesTo` property indices which
   plugin the preset applies to.  See the [presets
   extension](http://lv2plug.in/ns/ext/presets) for details.
 
 
-
 ## Installation
  
 * The name of a bundle itself MUST NOT be given any long-term significance (for
   example, in saved files).
-
     * Hosts may include special plugin bundles as part of their installation
       and depend on the existence of those bundles in their search path, but
       otherwise the discovery process should be identical.
-
     * Users MUST be able to rename installed bundle directories without any
       save files breaking.
 
@@ -51,7 +43,6 @@ host authors typically do not need to be concerned with the details.
 
 * If a host encounters a bundle it does not "understand" or care about, it may
   simply ignore it.
-
 * Hosts MUST consider *all* data files associated with a plugin/spec/preset/etc
   (including `manifest.ttl`) whenever looking for information about a plugin.
 
@@ -70,7 +61,6 @@ organization clear.
 ### Plugin
 
 * `manifest.ttl` contains the triple `<pluginuri> a lv2:Plugin`.
-
 * `manifest.ttl` MAY contain triples of the form `<pluginuri> rdfs:seeAlso
   <datafile.ttl>` which indicates that more information can be found in
   `datafile.ttl`.
@@ -78,11 +68,9 @@ organization clear.
 ### Specification
 
 * `manifest.ttl` contains the triple `<specuri> a lv2:Specification`.
-
 * `manifest.ttl` MAY contain triples of the form `<specuri> rdfs:seeAlso
   <datafile.ttl>` which indicates that more information can be found in
   `datafile.ttl`.
-
 * Hosts SHOULD consider this information part of their LV2 specification.
   Hosts SHOULD NOT hard-code static assumptions about the specification, such
   as plugin categories or port types (though of course, they may not support
@@ -93,10 +81,8 @@ organization clear.
 * `manifest.ttl` contains the triple `<ui> a foo:MegaWidget` where
   `foo:MegaWidget` is a "widget" type the host understands (likely one defined
   in the [UI specification](http://lv2plug.in/ns/extensions/ui)).
-
 * `manifest.ttl` MAY contain triples of the form `<ui> rdfs:seeAlso
   <datafile.ttl>` which indicates that more information can be found in
   `datafile.ttl`.
-
 * `manifest.ttl` contains a triple of the form `<ui> ui:binary <ui.so>` where
   `ui.so` is the module to be dynamically loaded by the host.

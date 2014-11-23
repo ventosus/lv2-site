@@ -38,7 +38,6 @@ examples.  Until then, several external projects serve as useful examples:
 
 * [lv2file](https://github.com/jeremysalwen/lv2file) is a very simple
   single-file program that applies an LV2 plugin to an audio file.
-
 * [Jalv](http://drobilla.net/software/jalv) is a relatively simple yet
   fully-featured [Jack](http://jackaudio.org) host for LV2 plugins.  Start at
   the core, [jalv.c](http://dev.drobilla.net/browser/trunk/jalv/src/jalv.c),
@@ -57,16 +56,13 @@ The API reference is generated from Doxygen, and serves the usual purpose.  Go
 there for documentation about a specific function, struct, or define.
 
 * [Specifications](http://lv2plug.in/ns)
-
 * [API Reference](http://lv2plug.in/doc/html)
 
 
 ## Other Documentation
 
 * [Filesystem Hierarchy Standard](filesystem-hierarchy-standard.html)
-
 * [Validating LV2 Data](validating-lv2-data.html)
-
 * [Bundle Definition](bundle-definition.html)
 
 
@@ -101,5 +97,4 @@ us in [#lv2](http://webchat.freenode.net/?channels=lv2) on irc.freenode.net
 ## Other Resources
 
 * [Logo](http://lv2plug.in/logo)
-
 * [LV2 Achievement of GMPI Requirements](http://lv2plug.in/gmpi.html)
