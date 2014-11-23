@@ -1,35 +1,39 @@
 Title: Developing
 
-The way to learn about implementing LV2 is by example.  The documentation and
-example projects listed below have been created specifically for this purpose,
-look at these first.  Copying an example as a template is recommended.
+The best way to learn LV2 is by example.  The documentation and example
+projects mentioned below are good starting points.  If you're writing a plugin
+in C, copying one of the
+[example plugins](http://lv2plug.in/git/cgit.cgi/lv2.git/tree/plugins) in LV2
+as a template is recommended.
 
-
-**What *not* to do:** If you are interested in implementing LV2, do *not* look
-at the specifications and API references first!  These are *references* that do
-not always provide a clear high-level view.  Once you've gotten started based
-on the information below, if you need more specific detail, then the references
-are useful.
+**What *not* to do:** If you are new to LV2, do *not* look at the
+specifications and API references first!  These references provide detail, but
+not necessarily a clear high-level view.  Start with the suggestions below, and
+check the references later when you need specifics.
 
 
 ## Implementing Plugins
 
-LV2 includes several example plugins which are simple demonstrations of various
-types of plugins and the features they require with thorough documentation.  If
-you prefer to read source code, they are in the `plugins` directory of the LV2
-distribution.
+LV2 includes several well-documented example plugins which are simple
+demonstrations of various plugin types.  If you prefer to read source code,
+they are in the
+[`plugins`](http://lv2plug.in/git/cgit.cgi/lv2.git/tree/plugins) directory of
+the LV2 distribution.
 
-If you would prefer to read a document, there is also a "book" generated from
-the literate source code of these plugins:
+There is also a "book" generated from the literate source code of these plugins
+(work in progress):
 
 * [Programming LV2 Plugins](http://lv2plug.in/book)
+
+After writing a plugin, be sure to [validate](validating-lv2-data.html) the
+data to check for typos and invalid constructs.
 
 
 ## Implementing Hosts
 
 LV2 hosts use a library to handle all the details of plugin discovery,
 investigation, and instantiation.  [Lilv](http://drobilla.net/software/lilv) is
-the standard library for this.
+the standard library for hosts:
 
 * [Lilv API Reference](http://drobilla.net/docs/lilv/)
 
@@ -48,9 +52,8 @@ examples.  Until then, several external projects serve as useful examples:
 ## Reference
 
 Most LV2 specifications have two parts: code and data.  The "specification"
-documentation comes from the data, and documents the various concepts in the
-specification, with links to the API reference of the associated APIs.  After
-examples, this is the best place to better understand an extension.
+documentation comes from the data, and defines/documents the various concepts
+involved.  Start there to better understand an extension's purpose.
 
 The API reference is generated from Doxygen, and serves the usual purpose.  Go
 there for documentation about a specific function, struct, or define.
@@ -59,10 +62,9 @@ there for documentation about a specific function, struct, or define.
 * [API Reference](http://lv2plug.in/doc/html)
 
 
-## Other Documentation
+## Distrbution and Packaging
 
 * [Filesystem Hierarchy Standard](filesystem-hierarchy-standard.html)
-* [Validating LV2 Data](validating-lv2-data.html)
 * [Bundle Definition](bundle-definition.html)
 
 

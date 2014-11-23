@@ -15,11 +15,11 @@ Unix     | `$HOME/.lv2`                       | `$PREFIX/lib/lv2`
 Mac OS X | `$HOME/Library/Audio/Plug-Ins/LV2` | `/Library/Audio/Plug-Ins/LV2`
 Windows  | `%APPDATA%/LV2`                    | `%COMMONPROGRAMFILES%/LV2`
 
-$PREFIX should be /usr/local by default in all source distributions.
+`$PREFIX` should be /usr/local by default in all source distributions.
 
-## Bundle Discovery - LV2_PATH
+## Bundle Discovery
 
-The environment variable `LV2_PATH` is the search path for LV2 bundles.  Like the PATH variable for programs, it is colon-delimited on Unix and OSX, semicolon-delimited on Windows, and searched from left to right.  Based on the above locations, the default `LV2_PATH` is:
+The environment variable `LV2_PATH` is the search path for LV2 bundles.  Like the `PATH` variable for programs, it is colon-delimited on Unix and OSX, semicolon-delimited on Windows, and searched from left to right.  Based on the above locations, the default `LV2_PATH` is:
 
 Platform | Default Path
 ---------|-------------
