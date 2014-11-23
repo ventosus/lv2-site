@@ -76,6 +76,8 @@ Both LV2 itself and this site are stored in [git](http://lv2plug.in/git):
     git clone http://lv2plug.in/git/lv2
     git clone http://lv2plug.in/git/lv2site
 
+There is also an official mirror on [Github](https://github.com/drobilla/lv2).
+
 Contributions are most welcome.  If you plan to implement something
 significant, it is a good idea to discuss it with the community on the mailing
 list to be sure you're headed in the right direction.  Feel free to get

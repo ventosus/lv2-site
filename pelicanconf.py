@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'David Robillard'
 SITENAME = u'LV2'
-SITELOGO = 'images/logo.png'
+SITELOGO = 'images/logo.svg'
 SITELOGO_WIDTH = '75'
 SITELOGO_HEIGHT = '48'
 SITEURL = ''
