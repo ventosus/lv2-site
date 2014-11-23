@@ -1,4 +1,35 @@
-{% extends "article_list.html" %}
+{% extends "base.html" %}
+{% block content_title %}{% endblock %}
+{% block content %}        
+  {% if articles %}
+    {% for article in articles %}        
 
-{% block canonical_rel %}<link rel="canonical" href="{{ SITEURL }}">{% endblock %}
+      {# First item #}
+      {% if loop.first %}
+        <header>
+          <h1><a href="{{ SITEURL }}/{{ article.url }}" id="page-title">{{ article.title }}</a></h1>
+          <span id="sitename"><a href="{{ SITEURL }}" id="site-title">{{ SITENAME }} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a> &sdot;</span>
+          {% if not HIDE_DATE %}<time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>{% endif %}
+        </header>
 
+        <article>
+          {{ article.content }}
+        </article>
+        {% if loop.length > 1 %}
+          <section id="article-list">
+            <h2>Tous les articles</h2>
+            <ol>
+        {% endif %}
+        {# other items #}
+      {% else %} 
+        <li><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+    {% if loop.length > 1 %}
+            </ol>
+          </section><!-- #article-list -->
+    {% endif %}
+  {% else %}
+    No articles.
+  {% endif %}
+{% endblock content %}

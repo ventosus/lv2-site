@@ -4,6 +4,9 @@ from __future__ import unicode_literals
 
 AUTHOR = u'David Robillard'
 SITENAME = u'LV2'
+SITELOGO = 'images/logo.png'
+SITELOGO_WIDTH = '75'
+SITELOGO_HEIGHT = '48'
 SITEURL = ''
 
 PATH = 'content'
@@ -40,6 +43,8 @@ DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 
 DEFAULT_PAGINATION = False
+
+GITHUB_URL = 'http://github.com/drobilla/lv2'
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
