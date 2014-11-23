@@ -62,7 +62,7 @@ there for documentation about a specific function, struct, or define.
 * [API Reference](http://lv2plug.in/doc/html)
 
 
-## Distrbution and Packaging
+## Distribution and Packaging
 
 * [Filesystem Hierarchy Standard](filesystem-hierarchy-standard.html)
 * [Bundle Definition](bundle-definition.html)
