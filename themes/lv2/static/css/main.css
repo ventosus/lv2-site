@@ -155,12 +155,7 @@ nav {
     padding: 0.5em;
 }
 
-nav a {
-    border-bottom: none;
-    color: #EEE;
-}
-
-nav a:visited {
+nav a, nav a:link, nav a:visited {
     border-bottom: none;
     color: #EEE;
 }
