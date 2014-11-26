@@ -1,5 +1,6 @@
 Title:
 save_as: index.html
+Gallery: .
 
 LV2 is a [free](http://www.gnu.org/philosophy/free-sw.html) standard for audio
 plugins, used by hundreds of plugins and other projects.  At its core, LV2 is a

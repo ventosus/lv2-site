@@ -7,7 +7,7 @@ SITENAME = u'LV2'
 SITELOGO = 'images/logo.svg'
 SITELOGO_WIDTH = '75'
 SITELOGO_HEIGHT = '48'
-SITEURL = ''
+SITEURL = 'http://lv2plug.in'
 
 PATH = 'content'
 
@@ -54,3 +54,21 @@ DISPLAY_TAGS_ON_SIDEBAR = False
 DISPLAY_RECENT_POSTS_ON_SIDEBAR = False
 DISPLAY_SERIES_ON_SIDEBAR = False
 DISPLAY_CATEGORIES_ON_SIDEBAR = False
+
+PLUGIN_PATHS = ["extra_plugins"]
+PLUGINS = ["gallery"]
+
+GALLERY_FOLDER = "galleries"
+GALLERY_SRC_PATH = "%s%s" % (PATH, "/images/screenshots")
+GALLERY_OUTPUT_PATH = "%s%s" % ("output/", GALLERY_FOLDER)
+GALLERY_REGENERATE_EXISTING = True
+GALLERY_PRESETS = [
+    {"name": "thumb",
+     "actions": [{"type": "fit", "height": 100, "width": 100, "from": (0.5, 0.5)}]},
+    {"name": "slider",
+     "actions" : []},
+    {"name": "large",
+     "actions": [{"type": "resize", "height": 640, "width": 850, "from": (0.5, 0.5)}]},
+    {"name": "thumb_greyscale",
+     "actions": [{"type": "fit", "height": 100, "width": 100, "from": (0.5, 0.5)},
+                 {"type": "greyscale"} ]}]
