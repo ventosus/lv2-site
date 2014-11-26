@@ -56,6 +56,7 @@ DISPLAY_SERIES_ON_SIDEBAR = False
 DISPLAY_CATEGORIES_ON_SIDEBAR = False
 
 PLUGIN_PATHS = ["extra_plugins"]
+PLUGIN_PATH = "extra_plugins"
 PLUGINS = ["gallery"]
 
 GALLERY_FOLDER = "galleries"
