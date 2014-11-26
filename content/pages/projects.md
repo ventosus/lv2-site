@@ -2,10 +2,10 @@ title: Projects
 
 This page is a partial list of LV2 projects.  If you know of any that are not
 listed here, please
-[let us know](http://lists.lv2plug.in/listinfo.cgi/devel-lv2plug.in) or
-[http://lv2plug.in/git](add them) and send us a patch.
+[let us know](http://lists.lv2plug.in/listinfo.cgi/devel-lv2plug.in) or [send a
+patch](http://lv2plug.in/git).
 
-Another list is available at the [http://apps.linuxaudio.org/apps/categories/lv2](http://apps.linuxaudio.org/apps/categories/lv2).
+Another list is available at <http://apps.linuxaudio.org/apps/all/lv2>.
 
 ## Plugins
 
