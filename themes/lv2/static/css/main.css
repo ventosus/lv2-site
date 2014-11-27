@@ -194,6 +194,30 @@ header a#page-title {
 	border-radius: 6px;
 }
 
+#mainlist {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#mainlist li {
+	background-color: #222;
+	color: #FFF;
+	font-weight: bold;
+	background: linear-gradient(to bottom, #444 0%, #000 100%);
+	border: solid 2px #444;
+	border-radius: 6px;
+	display: inline-block;
+	list-style-type: none;
+	margin: 0.25em;
+	padding: 0.5em;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+
+#mainlist li a, #mainlist li a:visited {
+	color: #FFF;
+}
 
 /* Pygments Style */
 
