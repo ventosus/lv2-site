@@ -13,6 +13,7 @@ Another list is available at <http://apps.linuxaudio.org/apps/all/lv2>.
 
 Project                                                      | Description
 -------------------------------------------------------------|--------------------------------------------------------------------
+[amSynth](https://code.google.com/p/amsynth/)                | Virtual analog synthesizer.
 [EMap](http://www.colorfulsoftware.com/emap)                 | FluidSynth soundfont playing synth.
 [foo-yc20](http://code.google.com/p/foo-yc20/)               | Faithful emulation of the YC-20 divide-down combo organ.
 [lv2-mdaEPiano](http://github.com/rekado/lv2-mdaEPiano)      | Native LV2 port of the famous mdaEPiano VSTi.
