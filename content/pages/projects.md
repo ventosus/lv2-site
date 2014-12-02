@@ -44,8 +44,10 @@ Project                                                        | Description
 [Aubio-LV2](http://jeremysalwen.github.com/Aubio-LV2-Plugins/) | LV2 wrappers for some of the Aubio library
 [avw.lv2](http://sourceforge.net/projects/avwlv2/)             | An LV2 port of internal modules of AlsaModularSynth
 [Calf](http://calf.sourceforge.net/)                           | Various plugins, including flanger, organ, reverb, filters, rotary speaker, etc.
+[Distro](http://distro.sourceforge.net/)                       | Open-source project that provides Cross-Platform Audio Plugins.
 [EQ10Q](http://eq10q.sourceforge.net/)                         | Powerful and flexible parametric equalizer.
 [Fomp](http://drobilla.net/software/fomp)                      | Port of various high-quality plugins by Fons Adriaensen.
+[Guitarix](http://guitarix.sourceforge.net/)                   | Various effect and tube emulation amplifier plugins.
 [Invada Studio](https://launchpad.net/invada-studio/)          | Delays, distortions, filters, phasers, reverbs, and some utility plugins.
 [IR](http://factorial.hu/plugins/lv2/ir)                       | No-latency/low-latency, realtime, high performance signal convolver.
 [kn0ck0ut-LV2](https://github.com/jeremysalwen/kn0ck0ut-lv2)   | LV2 port of [kn0ck0ut](http://www.freewebs.com/st3pan0va/).
@@ -84,8 +86,10 @@ Project                                                              | Descripti
 ---------------------------------------------------------------------|-------------------------------------------------------------------------
 [Ardour](http://ardour.org)                                          | A professional quality DAW with support for LV2 effects and instruments.
 [Audacity](http://audacity.sourceforge.net/)                         | Software for recording and editing sounds.
+[Carla](http://kxstudio.sourceforge.net/Applications:Carla)          | Powerful audio plugin host.
 [Ecasound](http://www.eca.cx/ecasound/index.php)                     | Multitrack command line audio editor and processor.
 [FreeADSP](http://naspro.sourceforge.net/applications.html#freeadsp) | MIDI-controlled real-time stereo effect rack.
+[Guitarix](http://guitarix.sourceforge.net/)                         | Tube emulation amplifier with effect rack.
 [Ingen](http://drobilla.net/software/ingen/)                         | Modular audio environment.
 [Jalv](http://drobilla.net/software/jalv/)                           | Command-line Jack host.
 [LinuxSampler](http://www.linuxsampler.org/)                         | Free, streaming audio sampler with professional grade features.
