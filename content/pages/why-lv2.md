@@ -2,7 +2,7 @@ Title: Why LV2?
 
 Unlike many popular audio plugin APIs, LV2 is a platform-agnostic
 [Free Software](http://www.gnu.org/philosophy/free-sw.html) specification with
-a liberal license.
+a liberal [license](http://opensource.org/licenses/ISC).
 
 ## Features
 

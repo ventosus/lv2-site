@@ -2,10 +2,10 @@ Title:
 save_as: index.html
 Gallery: .
 
-LV2 is a [free](http://www.gnu.org/philosophy/free-sw.html) standard for audio
-plugins, used by hundreds of plugins and other projects.  At its core, LV2 is a
-simple stable interface, accompanied by *extensions* which add functionality to
-support the needs of increasingly powerful audio software.
+LV2 is an open standard for audio plugins, used by hundreds of plugins and
+other projects.  At its core, LV2 is a simple stable interface, accompanied by
+*extensions* which add functionality to support the needs of increasingly
+powerful audio software.
 
 <ul id="mainlist">
   <li><a href="http://lv2plug.in/spec/lv2-1.10.0.tar.bz2">Download LV2 1.10.0</a>
