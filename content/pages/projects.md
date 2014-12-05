@@ -14,6 +14,7 @@ Another list is available at <http://apps.linuxaudio.org/apps/all/lv2>.
 Project                                                      | Description
 -------------------------------------------------------------|--------------------------------------------------------------------
 [amSynth](https://code.google.com/p/amsynth/)                | Virtual analog synthesizer.
+[cellular automaton synth](http://infamousplugins.sourceforge.net/plugs.html#casynth) | Additive synth from [Infamous Plugins](http://infamousplugins.sourceforge.net).
 [EMap](http://www.colorfulsoftware.com/emap)                 | FluidSynth soundfont playing synth.
 [foo-yc20](http://code.google.com/p/foo-yc20/)               | Faithful emulation of the YC-20 divide-down combo organ.
 [lv2-mdaEPiano](http://github.com/rekado/lv2-mdaEPiano)      | Native LV2 port of the famous mdaEPiano VSTi.
@@ -48,6 +49,7 @@ Project                                                        | Description
 [EQ10Q](http://eq10q.sourceforge.net/)                         | Powerful and flexible parametric equalizer.
 [Fomp](http://drobilla.net/software/fomp)                      | Port of various high-quality plugins by Fons Adriaensen.
 [Guitarix](http://guitarix.sourceforge.net/)                   | Various effect and tube emulation amplifier plugins.
+[Infamous Plugins](http://infamousplugins.sourceforge.net/)    | Collection of open source plugins for live use or in recording.
 [Invada Studio](https://launchpad.net/invada-studio/)          | Delays, distortions, filters, phasers, reverbs, and some utility plugins.
 [IR](http://factorial.hu/plugins/lv2/ir)                       | No-latency/low-latency, realtime, high performance signal convolver.
 [kn0ck0ut-LV2](https://github.com/jeremysalwen/kn0ck0ut-lv2)   | LV2 port of [kn0ck0ut](http://www.freewebs.com/st3pan0va/).
