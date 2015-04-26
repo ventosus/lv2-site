@@ -17,7 +17,7 @@ Project                                                      | Description
 [cellular automaton synth](http://infamousplugins.sourceforge.net/plugs.html#casynth) | Additive synth from [Infamous Plugins](http://infamousplugins.sourceforge.net).
 [EMap](http://www.colorfulsoftware.com/emap)                 | FluidSynth soundfont playing synth.
 [foo-yc20](http://code.google.com/p/foo-yc20/)               | Faithful emulation of the YC-20 divide-down combo organ.
-[lv2-mdaEPiano](http://github.com/rekado/lv2-mdaEPiano)      | Native LV2 port of the famous mdaEPiano VSTi.
+[lv2-mdaMetaPiano](http://git.elephly.net/software/lv2-mdametapiano.git) | Native LV2 port of the famous mdaEPiano and mdaPiano VSTi.
 [minaton](http://sourceforge.net/projects/minaton/)          | Fat sounding mono subtractive software synthesizer.
 [Newtonator](http://newtonator.sourceforge.net/)             | Synth that produces some unpredictable sounds.
 [Russolo Suite](http://intonarumori.sourceforge.net)         | The CrazySynth synthesizer and the "the do-it-all effect" Omnifono.
@@ -40,7 +40,7 @@ Project                                                                     | De
 
 Project                                                        | Description
 ---------------------------------------------------------------|---------------------------------------------------------------------------------
-[abGate](http://abgate.sourceforge.net/)                       | Noise date.
+[abGate](http://abgate.sourceforge.net/)                       | Noise gate.
 [ArtyFX](http://openavproductions.com/artyfx/)                 | A suite of effects for mixing and live performance by [OpenAV](http://openavproductions.com).
 [Aubio-LV2](http://jeremysalwen.github.com/Aubio-LV2-Plugins/) | LV2 wrappers for some of the Aubio library
 [avw.lv2](http://sourceforge.net/projects/avwlv2/)             | An LV2 port of internal modules of AlsaModularSynth
