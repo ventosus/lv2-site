@@ -76,6 +76,7 @@ Project                                         | Description
 Project                                                             | Description
 --------------------------------------------------------------------|----------------------------------------------------------
 [ll-plugins](http://ll-plugins.nongnu.org/)                         | Several synth and utility plugins and a GUI-capable host.
+[Moony](https://open-music-kontrollers.ch/lv2/moony/)               | Rapid prototyping of event plugins in Lua.
 [NASPRO](http://naspro.sourceforge.net/plugins.html#naspro-bridges) | Bridges from LADSPA and DSSI to LV2.
 [midifilter.lv2](https://github.com/x42/midifilter.lv2)             | Collection of MIDI event filter/processors.
 [Tuna.lv2](https://github.com/x42/tuna.lv2)                         | Musical instrument tuner.
@@ -111,4 +112,5 @@ Project                                                                  | Descr
 [Lilv](http://drobilla.net/software/lilv/)                               | C library for LV2 hosts.
 [LV2 Toolkit](http://lvtoolkit.org/)                                     | C++ wrappers of LV2 APIs.
 [Permafrost](http://sourceforge.net/projects/naspro/files/naspro/0.2.0/) | DSP language whose compiler generates LV2 plugins.
+[Sherlock](https://open-music-kontrollers.ch/lv2/sherlock/)              | Atom/MIDI event visualizer as development/debugging tool.
 [Torture](http://carlh.net/plugins/torture.php)                          | Utility for checking LV2 plugins for denormals and data corruption.
