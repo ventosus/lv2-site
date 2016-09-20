@@ -40,13 +40,12 @@ the standard library for hosts:
 Plans are currently underway to incorporate simple and thoroughly documented hosts into LV2, along the lines of the plugin
 examples.  Until then, several external projects serve as useful examples:
 
-* [lv2file](https://github.com/jeremysalwen/lv2file) is a very simple
-  single-file program that applies an LV2 plugin to an audio file.
-* [Jalv](http://drobilla.net/software/jalv) is a relatively simple yet
-  fully-featured [Jack](http://jackaudio.org) host for LV2 plugins.  Start at
-  the core, [jalv.c](http://dev.drobilla.net/browser/trunk/jalv/src/jalv.c),
-  which weighs in at just under 1000 SLOC.  Jalv also supports MIDI, embedded
-  GUIs, presets, state saving, and other features.
+* [lv2apply](http://git.drobilla.net/cgit.cgi/lilv.git/tree/utils/lv2apply.c)
+  is a very simple program included with Lilv which applies an LV2 plugin to an
+  audio file.  Start here to learn the basics of loading an LV2 plugin.
+* [Jalv](http://drobilla.net/software/jalv) is
+  real-time [Jack](http://jackaudio.org) host which supports MIDI, embedded GUIs,
+  presets, state saving, and other features.
 
 
 ## Reference
