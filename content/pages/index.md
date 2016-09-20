@@ -8,8 +8,8 @@ other projects.  At its core, LV2 is a simple stable interface, accompanied by
 powerful audio software.
 
 <ul id="mainlist">
-  <li><a href="http://lv2plug.in/spec/lv2-1.12.0.tar.bz2">Download LV2 1.12.0</a>
-      <a href="http://lv2plug.in/spec/lv2-1.12.0.tar.bz2.sig"><small>.sig</small></a></li>
+  <li><a href="http://lv2plug.in/spec/lv2-1.14.0.tar.bz2">Download LV2 1.14.0</a>
+      <a href="http://lv2plug.in/spec/lv2-1.14.0.tar.bz2.asc"><small>(sig)</small></a></li>
   <li><a href="pages/why-lv2.html">Why LV2?</a></li>
   <li><a href="pages/projects.html">Projects</a></li>
   <li><a href="http://lists.lv2plug.in/listinfo.cgi/devel-lv2plug.in">Mailing List</a></li>
