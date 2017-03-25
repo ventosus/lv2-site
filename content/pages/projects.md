@@ -81,6 +81,7 @@ Project                                                             | Descriptio
 [midifilter.lv2](https://github.com/x42/midifilter.lv2)             | Collection of MIDI event filter/processors.
 [Tuna.lv2](https://github.com/x42/tuna.lv2)                         | Musical instrument tuner.
 [Simple-Scope](https://github.com/x42/sisco.lv2)                    | Professional audio oscilloscope.
+[VM](https://open-music-kontrollers.ch/lv2/vm/)                     | Virtual machine for arbitrary math on Control/CV/Audio/Atom ports.
 
 
 ## Hosts
